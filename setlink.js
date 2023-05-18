@@ -13,7 +13,7 @@ userInput.question("Enter your link:~$ ", (value) => {
 
   //
   fs.writeFile(
-    "./profile/page/2801/77link.js",
+    "./profile/page/2801/link.js",
     `const offerLink = "${value}";`,
     function (err) {
       console.log("Link set seccussful হয়ে গেছে 👈👇👉.");
